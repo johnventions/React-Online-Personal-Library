@@ -1,0 +1,5 @@
+RewriteEngine On    # Turn on the rewriting engine
+RewriteRule ^api/get  api/get.php    [NC,L]
+RewriteRule ^api/post api/post.php    [NC,L]
+RewriteRule ^api/delete api/delete.php    [NC,L]
+RewriteRule ^api/signin api/signin.php    [NC,L]
